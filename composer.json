@@ -36,7 +36,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LouisLun\\LaravelShippingProvider\\ShippingProvider"
+                "LouisLun\\LaravelShippingProvider\\ShippingServiceProvider"
             ],
             "aliases": {
                 "linepay": "LouisLun\\LaravelShippingProvider\\Facades\\Shipping"
