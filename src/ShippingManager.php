@@ -2,8 +2,9 @@
 namespace LouisLun\LaravelShippingProvider;
 
 use Illuminate\Support\Manager;
+use LouisLun\LaravelShippingProvider\Contracts\Factory;
 
-class ShippingManager extends Manager
+class ShippingManager extends Manager implements Factory
 {
     /**
      * The application instance.
